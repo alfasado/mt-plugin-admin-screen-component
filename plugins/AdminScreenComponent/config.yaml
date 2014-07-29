@@ -1,6 +1,6 @@
 name: AdminScreenComponent
 id:   AdminScreenComponent
-version: 0.2
+version: 0.3
 author_name: Alfasado Inc.
 author_link: http://alfasado.net/
 description: <__trans phrase="Movable Type's Admin Screen Markup Component.">
