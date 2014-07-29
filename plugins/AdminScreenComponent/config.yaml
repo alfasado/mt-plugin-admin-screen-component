@@ -1,6 +1,6 @@
 name: AdminScreenComponent
 id:   AdminScreenComponent
-version: 0.1
+version: 0.2
 author_name: Alfasado Inc.
 author_link: http://alfasado.net/
 description: <__trans phrase="Movable Type's Admin Screen Markup Component.">
@@ -8,10 +8,45 @@ l10n_class: AdminScreenComponent::L10N
 applications:
     cms:
         menus:
-            tools:admin_screen_component: 
+            admin_screen_component:
                 label: Admin Screen Component
-                order: 10000
+                order: 100000
+            admin_screen_component:admin_screen_component1:
+                label: Step 1
+                order: 1
                 mode: admin_screen_component
+                args:
+                    step: 1
+                view:
+                    - system
+                    - website
+                    - blog
+            admin_screen_component:admin_screen_component2:
+                label: Step 2
+                order: 2
+                mode: admin_screen_component
+                args:
+                    step: 2
+                view:
+                    - system
+                    - website
+                    - blog
+            admin_screen_component:admin_screen_component3:
+                label: Step 3
+                order: 3
+                mode: admin_screen_component
+                args:
+                    step: 3
+                view:
+                    - system
+                    - website
+                    - blog
+            admin_screen_component:admin_screen_component4:
+                label: Step 4
+                order: 4
+                mode: admin_screen_component
+                args:
+                    step: 4
                 view:
                     - system
                     - website

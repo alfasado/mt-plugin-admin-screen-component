@@ -1,0 +1,27 @@
+<mt:Setvar name="page_title" value="Movable Type Admin Screen Markup Component">
+<mt:Setvar name="html_title" value="Movable Type Admin Screen Markup Component">
+<mt:Setvar name="edit_screen" value="1">
+
+<mt:setvarblock name="html_head" append="1">
+<mt:ignore>JavaScript or CSS</mt:ignore>
+</mt:setvarblock>
+
+<mt:setvarblock name="system_msg">
+<div style="border: 1px solid gray; height:100%">
+<h2>System Message</h2>
+</div>
+</mt:setvarblock>
+
+<mt:setvarblock name="related_content">
+<div style="border: 1px solid gray; height:500px">
+<h2>Related Content</h2>
+</div>
+</mt:setvarblock>
+
+<mt:include name="include/header.tmpl" id="header_include">
+
+<div style="border: 1px solid gray; height:500px">
+<h2>Main Content</h2>
+</div>
+
+<mt:include name="include/footer.tmpl" id="footer_include">
